@@ -1,8 +1,7 @@
 import React from 'react';
-import ChapterTitle from './components/ChapterTitle';
+import ChapterTitle from './components/ChapterTitle/ChapterTitle';
 import data from './assets/content.json';
-import ChapterParagraph from './components/ChapterParagraph';
-import './styles.css'
+import ChapterParagraph from './components/ChapterParagraph/ChapterParagraph';
 
 function App() {
   const { title, paragraphs } = data.chapters.at(0);

@@ -1,11 +1,3 @@
-body { 
-  font-family: 'Roboto', sans-serif;
-  background-image: url('./book-setting.jpg');
-  background-color: #e2e0df;
-  background-repeat: no-repeat;
-  background-position: bottom;
-}
-
 .title {
   width: 1000px;
   color: #e2e0df;

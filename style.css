@@ -1,0 +1,31 @@
+body { 
+  font-family: 'Roboto', sans-serif;
+  background-image: url('./book-setting.jpg');
+  background-color: #e2e0df;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.title {
+  width: 1000px;
+  color: #e2e0df;
+  background-color: green;
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.paragraph {
+  font-weight: 300;
+  width: 1000px;
+  background-color: #e2e0df;
+  border: 15px solid green;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 50px;
+  margin: auto;
+  margin-top: 5px;
+}

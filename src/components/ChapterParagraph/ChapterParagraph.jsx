@@ -1,21 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import { BaseStyle } from '../ChapterTitle/ChapterTitle';
 
 const propTypes = {
   paragraph: PropTypes.string,
 };
 
-const Paragraph = styled.div`
+const Paragraph = styled(BaseStyle)`
 font-weight: 300;
-width: 1000px;
 background-color: #e2e0df;
-border: 15px solid green;
+border: 15px solid ${props => props.theme.primary};
 border-radius: 5px;
-box-sizing: border-box;
-padding: 50px;
-margin: auto;
-margin-top: 5px;
 `
 
 const ChapterParagraph = ({ paragraph }) => (

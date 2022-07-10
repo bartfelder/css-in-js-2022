@@ -6,13 +6,19 @@ const propTypes = {
   title: PropTypes.string,
 };
 
-const Title = styled.h1`
+export const BaseStyle = styled.div`
 width: 1000px;
-color: #e2e0df;
-background-color: green;
 box-sizing: border-box;
 border-radius: 15px;
 padding: 50px;
+margin: auto;
+margin-top: 5px;
+`
+
+const Title = styled(BaseStyle)`
+font-size: 2rem;
+color: #e2e0df;
+background-color: ${props => props.theme.primary};
 margin-left: auto;
 margin-right: auto;
 text-align: center;
